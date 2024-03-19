@@ -1,4 +1,5 @@
 local pee = 90
 for _, plr in pairs(workspace:GetChildren())
-    plr:pee
+    plr:WaitForChild("Backpack")
+    local hihi = pee*98
 end
